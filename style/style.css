@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 0;
+  font-family: 'poppins';
+  color: #1D1A05;
+}
+
+.landing-page {
+  height: 100vh;
+  background-image: linear-gradient(15deg, #7FB069, #FFFBBD);
+}
+
+.landing-page .navbar .container, .landing-page .navigation-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing-page .navbar .container {
+  background-color: whitesmoke;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.landing-page .logo, .landing-page .navigation-menu div {
+  margin: .8em 2em;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.landing-page .logo {
+  color: #0E9594;
+}
+
+.landing-page .logo span {
+  color: #F2542D;
+}
+/*# sourceMappingURL=style.css.map */
