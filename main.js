@@ -20,6 +20,7 @@ async function fetch_posts() {
 
 async function get_posts() {
   await fetch_posts();
+  console.log(posts);
   display_card(posts.data);
 }
 
